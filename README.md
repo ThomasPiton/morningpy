@@ -5,7 +5,7 @@
 | Category | Badges |
 |----------|--------|
 | Testing / CI | [![Tests](https://github.com/ThomasPiton/morningpy/actions/workflows/tests.yml/badge.svg)](https://github.com/ThomasPiton/morningpy/actions) [![Codecov](https://codecov.io/gh/ThomasPiton/morningpy/branch/main/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/ThomasPiton/morningpy) |
-| Package | [![PyPI](https://img.shields.io/pypi/v/morningpy.svg)](https://pypi.org/project/morningpy/) [![Python Versions](https://img.shields.io/pypi/pyversions/morningpy.svg)](https://pypi.org/project/morningpy/) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ThomasPiton/morningpy/blob/main/LICENSE) |
+| Package | [![PyPI](https://img.shields.io/pypi/v/morningpy.svg)](https://pypi.org/project/morningpy/) [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ThomasPiton/morningpy/blob/main/LICENSE) |
 | Meta | [![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://ThomasPiton.github.io/morningpy/) [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Powered by NumFOCUS](https://img.shields.io/badge/NumFOCUS-powered-blue.svg)](https://numfocus.org/) |
 
 ## Overview
