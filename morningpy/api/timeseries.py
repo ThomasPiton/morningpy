@@ -22,7 +22,7 @@ def get_intraday_timeseries(
     high-frequency market data between the specified start and end dates.
     Available intervals range from 1-minute to hourly. Extended-hours 
     trading sessions (pre-market and after-hours) can be included via 
-    the `pre_after` flag. test
+    the `pre_after` flag.
 
     Parameters
     ----------
