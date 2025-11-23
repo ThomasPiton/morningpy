@@ -1,9 +1,9 @@
-name: Build & upload to TestPyPI on every push to main
+name: Build & Upload to TestPyPI
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*-beta'   # Only beta/dev tags trigger TestPyPI
 
 jobs:
   publish_testpypi:
@@ -11,17 +11,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0     # ⬅ important
-          fetch-tags: true   # ⬅ important
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install Build Tools
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install build twine setuptools_scm
 
       - name: Build package
