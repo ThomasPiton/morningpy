@@ -2,15 +2,11 @@
 
 *A modern Python library for financial data — Stocks, ETFs, Funds, Indices, Financial Statements, Timeseries, and News.*
 
-[![PyPI](https://img.shields.io/pypi/v/morningpy.svg)](https://pypi.org/project/morningpy/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/morningpy.svg)](https://pypi.org/project/morningpy/)
-[![Tests](https://github.com/ThomasPiton/morningpy/actions/workflows/tests.yml/badge.svg)](https://github.com/ThomasPiton/morningpy/actions)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ThomasPiton/morningpy/blob/main/LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://ThomasPiton.github.io/morningpy/)
-[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Docs Build](https://github.com/ThomasPiton/morningpy/actions/workflows/release.yml/badge.svg?job=build_docs)](https://github.com/ThomasPiton/morningpy/actions/workflows/release.yml)
-[![Codecov](https://codecov.io/gh/ThomasPiton/morningpy/branch/main/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/ThomasPiton/morningpy)
-
+| Category | Badges |
+|----------|--------|
+| Testing / CI | [![Tests](https://github.com/ThomasPiton/morningpy/actions/workflows/tests.yml/badge.svg)](https://github.com/ThomasPiton/morningpy/actions) [![Codecov](https://codecov.io/gh/ThomasPiton/morningpy/branch/main/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/ThomasPiton/morningpy) |
+| Package | [![PyPI](https://img.shields.io/pypi/v/morningpy.svg)](https://pypi.org/project/morningpy/) [![Python Versions](https://img.shields.io/pypi/pyversions/morningpy.svg)](https://pypi.org/project/morningpy/) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ThomasPiton/morningpy/blob/main/LICENSE) |
+| Meta | [![Docs](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://ThomasPiton.github.io/morningpy/) [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Powered by NumFOCUS](https://img.shields.io/badge/NumFOCUS-powered-blue.svg)](https://numfocus.org/) |
 
 ## Overview
 
