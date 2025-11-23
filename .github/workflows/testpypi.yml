@@ -4,18 +4,16 @@ on:
   push:
     branches:
       - main
-    tags:
-      - 'v*'   
 
 jobs:
-
   publish_testpypi:
-    name: Publish to TestPyPI
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # ⬅ important
+          fetch-tags: true   # ⬅ important
 
       - uses: actions/setup-python@v4
         with:
@@ -35,33 +33,3 @@ jobs:
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_TOKEN }}
-
-  # -----------------------------------------------------------
-  # Build & upload to PyPI only on version tag push
-  # -----------------------------------------------------------
-  publish_pypi:
-    name: Publish to PyPI
-    if: startsWith(github.ref, 'refs/tags/v')
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install Build Tools
-        run: |
-          pip install --upgrade pip
-          pip install build twine setuptools_scm
-
-      - name: Build package
-        run: python -m build
-
-      - name: Upload to PyPI
-        run: |
-          twine upload dist/*
-        env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
