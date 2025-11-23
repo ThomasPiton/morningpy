@@ -23,3 +23,25 @@ URLS = {
 }
 
 TICKERS_FILE = "tickers.parquet"
+
+EXTRACTOR_CLASS_FUNC = {
+    "MarketCalendarUsInfoExtractor":"get_market_us_calendar_info",
+    "MarketCommoditiesExtractor":"get_market_commodities",
+    "MarketCurrenciesExtractor":"get_market_currencies",
+    "MarketMoversExtractor":"get_market_movers",
+    "MarketIndexesExtractor":"get_market_indexes",
+    "MarketFairValueExtractor":"get_market_fair_value",
+    "MarketExtractor":"get_market_info",
+    "HeadlineNewsExtractor":"get_headline_news",
+    "FinancialStatementExtractor":"get_financial_statement",
+    "HoldingExtractor":"get_holding",
+    "HoldingInfoExtractor":"get_holding_info",
+    "HistoricalTimeseriesExtractor":"get_historical_timeseries",
+    "IntradayTimeseriesExtractor":"get_intraday_timeseries",
+    # "TickerExtractor":"get_all_etfs",
+    # "TickerExtractor":"get_all_funds",
+    # "TickerExtractor":"get_all_securities",
+    # "TickerExtractor":"get_all_stocks",
+    # "TickerExtractor":"convert",
+
+}

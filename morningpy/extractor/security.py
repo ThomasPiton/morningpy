@@ -143,7 +143,6 @@ class FinancialStatementExtractor(BaseExtractor):
         df[period_col] = df[period_col]*10**6
         return df
     
-
 class HoldingExtractor(BaseExtractor):
     """
     Extracts ETF or fund holdings data from Morningstar.

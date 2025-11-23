@@ -1,0 +1,1262 @@
+{
+  "page": {
+    "currencies": [
+      {
+        "instrumentID": "240.20.GBPUSDCOMP",
+        "id": "gbp-usd",
+        "label": "GBP-USD",
+        "category": "Europe, Middle East and Africa",
+        "name": "Pound Sterling",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.000155,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.0118,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 1.3094,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:32:23Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:32:23Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.EURUSDCOMP",
+        "id": "eur-usd",
+        "label": "EUR-USD",
+        "category": "Europe, Middle East and Africa",
+        "name": "Euro",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.00085,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.0738,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 1.15113,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:43:16Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:43:16Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDJPYCOMP",
+        "id": "usd-jpy",
+        "label": "USD-JPY",
+        "category": "Asia and Oceania",
+        "name": "Japanese Yen",
+        "bidPriceDecimals": 2,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.139,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0889,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 156.527,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:34:47Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:34:47Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCADCOMP",
+        "id": "usd-cad",
+        "label": "USD-CAD",
+        "category": "Americas",
+        "name": "Canadian Dollar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.00025,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0177,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 1.40967,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:28Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:28Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCHFCOMP",
+        "id": "usd-chf",
+        "label": "USD-CHF",
+        "category": "Europe, Middle East and Africa",
+        "name": "Swiss Franc",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.0012110669,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.1496,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 0.8076,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:32:23Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:32:23Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.AUDUSDCOMP",
+        "id": "aud-usd",
+        "label": "AUD-USD",
+        "category": "Asia and Oceania",
+        "name": "Australian Dollar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.00073,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1131,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 0.64558,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:28Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:28Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDHKDCOMP",
+        "id": "usd-hkd",
+        "label": "USD-HKD",
+        "category": "Asia and Oceania",
+        "name": "Hong Kong Dollar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.00014,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.0018,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 7.782,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:32:23Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:32:23Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.CNYUSDCOMP",
+        "id": "cny-usd",
+        "label": "CNY-USD",
+        "category": "Asia and Oceania",
+        "name": "Chinese Yuan",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 1.08886e-05,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0077,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 0.1406924884,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:08Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:08Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.NZDUSDCOMP",
+        "id": "nzd-usd",
+        "label": "NZD-USD",
+        "category": "Asia and Oceania",
+        "name": "New Zealand Dollar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.00012,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0214,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 0.56077,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:26Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:26Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDBRLCOMP",
+        "id": "usd-brl",
+        "label": "USD-BRL",
+        "category": "Americas",
+        "name": "Brazilian Real",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.7539,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -12.2436,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 5.4021,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:57:31Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:57:31Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCLPCOMP",
+        "id": "usd-clp",
+        "label": "USD-CLP",
+        "category": "Americas",
+        "name": "Chilean Peso",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 8.92,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.959,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 938.57,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T20:11:07Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T20:11:07Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCOPCOMP",
+        "id": "usd-cop",
+        "label": "USD-COP",
+        "category": "Americas",
+        "name": "Colombian Peso",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 44.8738689368,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 1.2075,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 3717.5857577073,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T19:21:58Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T19:21:58Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCUPCOMP",
+        "id": "usd-cup",
+        "label": "USD-CUP",
+        "category": "Americas",
+        "name": "Cuban Peso",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.0354110797,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1479,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 23.9557099436,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T19:21:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T19:21:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDCZKCOMP",
+        "id": "usd-czk",
+        "label": "USD-CZK",
+        "category": "Europe, Middle East and Africa",
+        "name": "Czech Koruna",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.0468,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.2228,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 20.9228,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:21Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:21Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDINRCOMP",
+        "id": "usd-inr",
+        "label": "USD-INR",
+        "category": "Asia and Oceania",
+        "name": "Indian Rupee",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.0125,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0139,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 89.634,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T19:22:01Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T19:22:01Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDIDRCOMP",
+        "id": "usd-idr",
+        "label": "USD-IDR",
+        "category": "Asia and Oceania",
+        "name": "Indonesian Rupiah",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 32.6,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1959,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 16639,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T09:18:04Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T09:18:04Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDIRRCOMP",
+        "id": "usd-irr",
+        "label": "USD-IRR",
+        "category": "Europe, Middle East and Africa",
+        "name": "Iranian Rial",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 75,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1785,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 42000,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T18:17:21Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T18:17:21Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDIQDCOMP",
+        "id": "usd-iqd",
+        "label": "USD-IQD",
+        "category": "Europe, Middle East and Africa",
+        "name": "Iraqi Dinar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 26.5541427356,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 2.0706,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 1282.9353017803,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T19:21:58Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T19:21:58Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDLBPCOMP",
+        "id": "usd-lbp",
+        "label": "USD-LBP",
+        "category": "Europe, Middle East and Africa",
+        "name": "Lebanese Pound",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 69.7001442757,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0779,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 89500.9986973513,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T19:21:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T19:21:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDMXNCOMP",
+        "id": "usd-mxn",
+        "label": "USD-MXN",
+        "category": "Americas",
+        "name": "Mexican Peso",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.024205,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1311,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 18.44374,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:04Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:04Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDSGDCOMP",
+        "id": "usd-sgd",
+        "label": "USD-SGD",
+        "category": "Asia and Oceania",
+        "name": "Singapore Dollar",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": 0.0038,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.2916,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 1.3064,
+            "properties": {
+              "date": {
+                "value": "2025-11-23T22:46:18Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-23T22:46:18Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      },
+      {
+        "instrumentID": "240.20.USDPHPCOMP",
+        "id": "usd-php",
+        "label": "USD-PHP",
+        "category": "Asia and Oceania",
+        "name": "Philippine Peso",
+        "bidPriceDecimals": 4,
+        "dataPoints": {
+          "netChange": {
+            "value": -0.1285,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.2181,
+            "properties": {
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          },
+          "bidPrice": {
+            "value": 58.574,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:50:02Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "OTCC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:50:02Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "OTCC",
+              "properties": {}
+            }
+          }
+        }
+      }
+    ]
+  },
+  "pageMeta": {},
+  "components": {}
+}

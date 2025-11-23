@@ -162,7 +162,6 @@ class IntradayTimeseriesExtractor(BaseExtractor):
         df.sort_values(by=["security_id", "date"], inplace=True, ignore_index=True)
         return df
         
-
 class HistoricalTimeseriesExtractor(BaseExtractor):
     """
     Extracts historical timeseries data for multiple securities from Morningstar.

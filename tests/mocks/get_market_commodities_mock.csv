@@ -1,0 +1,6 @@
+category,name,instrument_id,exchange,exchange,option_expiration_date,last_price,net_change,percent_net_change
+Agricultural,Soybean,64.3.@ZS0Y,Chicago Board of Trade,XCBT,2026-01-14,1126.5,2.5,0.2227
+Agricultural,Lumber,77.3.@LBR0Y,Chicago Mercantile Exchange,XCME,2026-01-15,543.0,0.5,0.0929
+Agricultural,Sugar No. 11,68.3.SB0Y,ICE Futures U.S.,IFUS,2026-02-27,14.77,0.12,0.8186
+Agricultural,KC Wheat,64.3.@KE0Y,Chicago Board of Trade,XCBT,2025-12-12,513.0,4.75,0.9383
+Agricultural,Rough Rice,64.3.@ZR0Y,Chicago Board of Trade,XCBT,2026-01-12,10.375,0.415,4.1376

@@ -1,0 +1,4 @@
+category,security_id,ticker,name,performance_id,company_id,exchange,change,is_quant,uncertainty,evaluated_price,fair_value,previous_fair_value,one_star_price,two_star_price,four_star_price,five_star_price,price_to_fair_value,stock_star_rating,previous_stock_star_rating,evaluated_price_stock_star_rating
+overvaluedStocks,0P00000187,CME,CME Group Inc Class A,0P00000187,0C000007BL,XNAS,Upgrade,False,Low,273.08996,260,245,325.0,273.0,247.0,208.0,1.050346,2,3,273.08996
+overvaluedStocks,0P000001GL,ED,Consolidated Edison Inc,0P000001GL,0C00000APN,XNYS,Upgrade,False,Low,100.16002,95,93,118.75,99.75,90.25,76.0,1.054316,2,3,100.16002
+overvaluedStocks,0P000000KX,ATO,Atmos Energy Corp,0P000000KX,0C00000AHG,XNYS,Upgrade,False,Low,175.16004,165,141,206.25,173.25,156.75,132.0,1.061576,2,3,175.16004

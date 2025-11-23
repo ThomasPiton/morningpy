@@ -1,0 +1,14 @@
+{
+  "url": "https://api-global.morningstar.com/sal-service/v1/stock/newfinancials/0P000115U4/incomeStatement/detail",
+  "params": {
+    "dataType": "Q",
+    "reportType": "A",
+    "languageId": "en-ca",
+    "locale": "en-ca",
+    "clientId": "MDC",
+    "benchmarkId": "undefined",
+    "component": "sal-equity-financials",
+    "version": "4.69.0"
+  },
+  "method": "GET"
+}

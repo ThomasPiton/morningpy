@@ -1,0 +1,3 @@
+security_id,master_portfolio_id,base_currency_id,domicile_country_id,portfolio_suppression,asset_type,portfolio_latest_date_footer,number_of_holding,number_of_equity_holding,number_of_bond_holding,number_of_other_holding,number_of_holding_short,number_of_equity_holding_short,number_of_bond_holding_short,number_of_other_holding_short,top_n_count,top_holding_weighting,last_turnover,number_of_equity_holding_percentage,number_of_bond_holding_percentage,number_of_other_holding_percentage
+F00000ZD4T,1532140,USD,IRL,0,EQUITY,2025-11-21 06:00:00,168,136,0,32,0,0,0,0,0,20.90744,84.58,80.952,0.0,19.048000000000002
+F00001EIVP,3026171,USD,IRL,0,EQUITY,2025-10-31 05:00:00,3813,3797,0,16,0,0,0,0,0,27.33868,0,99.58,0.0,0.42

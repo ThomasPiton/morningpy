@@ -23,6 +23,7 @@ from .api.ticker import (
     get_all_funds,
     get_all_securities,
     get_all_stocks,
+    convert
 )
 
 from .api.timeseries import (
@@ -53,6 +54,7 @@ __all__ = [
     "get_all_funds",
     "get_all_securities",
     "get_all_stocks",
+    "convert",
     "get_historical_timeseries",
     "get_intraday_timeseries",
 ]

@@ -1,0 +1,5 @@
+{
+  "url": "https://www.morningstar.com/api/v2/markets/indexes",
+  "params": null,
+  "method": "GET"
+}

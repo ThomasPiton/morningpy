@@ -1,0 +1,15 @@
+{
+  "url": "https://api-global.morningstar.com/sal-service/v1/etf/portfolio/holding/v2/0P00013Z57/data",
+  "params": {
+    "premiumNum": 10000,
+    "freeNum": 10000,
+    "hideesg": "false",
+    "languageId": "en-ca",
+    "locale": "en-ca",
+    "clientId": "MDC",
+    "benchmarkId": "prospectus_primary",
+    "component": "sal-mip-holdings",
+    "version": "4.69.0"
+  },
+  "method": "GET"
+}

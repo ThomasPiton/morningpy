@@ -1,0 +1,6 @@
+calendar_date,updated_at,vendor,type,calendar,vendor_id,date_param,info_type,security_id,ticker,name,exchange,market_cap,isin,exchange_country,quarter_end_date,actual_diluted_eps,net_income,consensus_estimate,percentage_surprise,quarterly_sales
+2025-11-12,2025-11-13T08:00:14Z,Zacks,reported-earnings,earnings,52490G1020,['2025-11-12'],earnings,0P0001K16P,LEGN,Legend Biotech Corp ADR,XNAS,5753068859,US52490G1022,USA,2025-09-30,-0.11,-39.689,-0.13,15.38,272.33
+2025-11-12,2025-11-13T08:00:14Z,Zacks,reported-earnings,earnings,21833P3010,['2025-11-12'],earnings,0P00014J5G,CRBP,Corbus Pharmaceuticals Holdings Inc,XNAS,189543934,US21833P3010,USA,2025-09-30,-1.9,-23.342,-1.8,-5.56,0.0
+2025-11-12,2025-11-13T08:00:15Z,Zacks,reported-earnings,earnings,35168W1030,['2025-11-12'],earnings,0P0001S35M,GUTS,Fractyl Health Inc,XNAS,146074121,US35168W1036,USA,2025-09-30,-0.35,-45.603,-0.34,-2.94,0.0
+2025-11-12,2025-11-13T08:00:15Z,Zacks,reported-earnings,earnings,G5501C1090,['2025-11-12'],earnings,0P0001T3PO,CUB,Lionheart Holdings Ordinary Shares - Class A,XNAS,326293337,KYG5501C1096,USA,2025-09-30,0.08,2.332,,,0.0
+2025-11-12,2025-11-13T08:00:14Z,Zacks,reported-earnings,earnings,36269B1050,['2025-11-12'],earnings,0P0001LX4C,GANX,Gain Therapeutics Inc,XNAS,106048388,US36269B1052,USA,2025-09-30,-0.15,-5.284,-0.15,0.0,0.0

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.morningstar.com/api/v2/markets/calendar",
+  "params": {
+    "date": "2025-11-12",
+    "category": "earnings"
+  },
+  "method": "GET"
+}

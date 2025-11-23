@@ -3,6 +3,7 @@ import aiohttp
 from typing import Any, List, Tuple, Dict, Optional, Union, Type
 import pandas as pd
 
+from morningpy.core.decorator import save_dataframe_mock,save_api_response,save_api_request
 from morningpy.core.interchange import DataFrameInterchange
 
 
@@ -39,7 +40,8 @@ class BaseExtractor(ABC):
     def _process_response(self, response: Any) -> pd.DataFrame:
         """Convert API json/dict response → DataFrame."""
         raise NotImplementedError
-
+    
+    @save_dataframe_mock(activate=False)
     async def _call_api(self) -> pd.DataFrame:
         """
         Handle single or multiple async API calls.
@@ -59,14 +61,14 @@ class BaseExtractor(ABC):
 
             requests = self._prepare_requests()
 
-            responses = await self.client.fetch_all(session, requests)
+            responses = await self._fetch_responses(session, requests)
 
             dfs = []
             for res in responses:
                 if isinstance(res, Exception):
                     self.client.logger.error(f"API call failed: {res}")
                     continue
-
+            
                 df = self._process_response(res)
                 if not isinstance(df, pd.DataFrame):
                     self.client.logger.error(
@@ -75,9 +77,15 @@ class BaseExtractor(ABC):
                     continue
 
                 dfs.append(df)
-
+                
             return pd.concat(dfs, ignore_index=True, sort=False) if dfs else pd.DataFrame()
 
+    @save_api_response(activate=False)
+    async def _fetch_responses(self, session, requests):
+        """Fetch API responses using the client."""
+        return await self.client.fetch_all(session, requests)
+    
+    @save_api_request(activate=False)
     def _prepare_requests(self) -> List[Tuple[str, Optional[Dict[str, Any]]]]:
         """Normalize request inputs into a uniform list of (url, params) pairs."""
 

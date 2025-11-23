@@ -1,0 +1,1678 @@
+{
+  "page": {},
+  "pageMeta": {},
+  "components": {
+    "sectors": {
+      "status": 200,
+      "payload": [
+        {
+          "id": "AG00000101",
+          "name": "Basic Materials",
+          "description": "Companies that manufacture chemicals, building materials and paper products. This sector also includes companies engaged in commodities exploration and processing.",
+          "slug": "basic-materials",
+          "benchmarkIndex": "0P0000RT4M",
+          "priceIndex": "0P0000RT4L",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt9f61eb8180aa5ba4/652477c0da16e14dade1b270/BasicMaterials_hero.png"
+        },
+        {
+          "id": "AG00000308",
+          "name": "Communication Services",
+          "description": "Companies that provide communication services using fixed-line networks or those that provide wireless access and services. This sector also includes companies that provide internet services such as access, navigation, and internet-related software and services.",
+          "slug": "communication-services",
+          "benchmarkIndex": "0P0001A4BF",
+          "priceIndex": "0P0000RT4O",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt01a2a7cf50c67c4d/652477d8ab414e3b3f6cb049/CommunicationServices_hero.png"
+        },
+        {
+          "id": "AG00000102",
+          "name": "Consumer Cyclical",
+          "description": "This sector includes retail stores, auto and auto parts manufacturers, companies engaged in residential construction, lodging facilities, restaurants, and entertainment companies.",
+          "slug": "consumer-cyclical",
+          "benchmarkIndex": "0P0000RT4R",
+          "priceIndex": "0P0000RT4Q",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt15de81b397a8a54e/652477d984295ec466944c26/ConsumerCyclical_hero.png"
+        },
+        {
+          "id": "AG00000205",
+          "name": "Consumer Defensive",
+          "description": "Companies engaged in the manufacturing of food, beverages, household and personal products, packaging, or tobacco. This sector also includes companies that provide services such as education and training services.",
+          "slug": "consumer-defensive",
+          "benchmarkIndex": "0P0000RT4T",
+          "priceIndex": "0P0000RT4S",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt3e3e36f4fcb2be9c/652477d9ccf95b42fb84e72c/ConsumerDefensive_hero.png"
+        },
+        {
+          "id": "AG00000309",
+          "name": "Energy",
+          "description": "Companies that produce or refine oil and gas, oil field services and equipment companies, and pipeline operators. This sector also includes companies engaged in the mining of coal.",
+          "slug": "energy",
+          "benchmarkIndex": "0P0001A4C4",
+          "priceIndex": "0P0000RT4U",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt2adf616d07d66202/652477d901e0b76a8ecf94e6/Energy_hero.png"
+        },
+        {
+          "id": "AG00000103",
+          "name": "Financial Services",
+          "description": "Companies that provide financial services, including banks, savings and loans, asset management companies, credit services, investment brokerage firms, and insurance companies.",
+          "slug": "financial-services",
+          "benchmarkIndex": "0P0000RT4Z",
+          "priceIndex": "0P0000RT4Y",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/bltf078fdd0e3542a95/652477d95eded67fc77c6543/FinancialServices_hero.png"
+        },
+        {
+          "id": "AG00000206",
+          "name": "Healthcare",
+          "description": "This sector includes biotechnology, pharmaceuticals, research services, home healthcare, hospitals, long-term-care facilities, and medical equipment and supplies.",
+          "slug": "healthcare",
+          "benchmarkIndex": "0P0000RT51",
+          "priceIndex": "0P0000RT50",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt7f1869e13e8f6290/652477d8cb80d3689c673d41/Healthcare_hero.png"
+        },
+        {
+          "id": "AG00000310",
+          "name": "Industrials",
+          "description": "Companies that manufacture machinery, hand-held tools, and industrial products. This sector also includes aerospace and defense firms as well as companies engaged in transportation and logistic services.",
+          "slug": "industrials",
+          "benchmarkIndex": "0P0000RT53",
+          "priceIndex": "0P0000RT52",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/bltf3919a3a9c8e83f3/652477dcab414e541c6cb04d/Industrials_hero.png"
+        },
+        {
+          "id": "AG00000104",
+          "name": "Real Estate",
+          "description": "This sector includes mortgage companies, property management companies, and REITs.",
+          "slug": "real-estate",
+          "benchmarkIndex": "0P0000RT55",
+          "priceIndex": "0P0000RT54",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt5e519ba6f107dc53/652477dccb80d3f93d673d45/Realestate_hero.png"
+        },
+        {
+          "id": "AG00000311",
+          "name": "Technology",
+          "description": "Companies engaged in the design, development, and support of computer operating systems and applications. This sector also includes companies that provide computer technology consulting services and companies engaged in the manufacturing of computer equipment, data storage products, networking products, semiconductors, and components.",
+          "slug": "technology",
+          "benchmarkIndex": "0P0000RT57",
+          "priceIndex": "0P0000RT56",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/bltbdce13088038caa3/652477dcccf95b0eb584e730/Technology_hero.png"
+        },
+        {
+          "id": "AG00000207",
+          "name": "Utilities",
+          "description": "This sector includes electric, gas, and water utilities.",
+          "slug": "utilities",
+          "benchmarkIndex": "0P0000RT59",
+          "priceIndex": "0P0000RT58",
+          "image": "https://images.contentstack.io/v3/assets/blt318ed4b7d6010c4b/blt71a9d59c59664ac6/652477dc84295e1e62944c2a/Utilities_hero.png"
+        }
+      ]
+    },
+    "undervaluedStocks": {
+      "status": 200,
+      "payload": {
+        "query": "exchangeCountry = 'USA' AND fairValue.isQuant = 'false' AND fairValueUncertainty in ('Low','Medium','High') AND stockStarRating in (4,5)",
+        "fields": [
+          {
+            "alias": "name",
+            "field": "name",
+            "name": "Name",
+            "label": "Name",
+            "attributes": {
+              "type": "string",
+              "defaultWidth": 280,
+              "displayWeight": 4,
+              "defaultSort": "asc"
+            }
+          },
+          {
+            "alias": "ticker",
+            "field": "ticker",
+            "name": "Ticker",
+            "label": "Ticker",
+            "attributes": {
+              "type": "string",
+              "defaultWidth": 90,
+              "displayWeight": 1,
+              "defaultSort": "asc"
+            }
+          },
+          {
+            "alias": "evaluatedPrice",
+            "field": "stockStarRating",
+            "property": "evaluatedPrice",
+            "name": "Evaluated Price",
+            "label": "Morningstar Rating for Stocks",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "currency",
+              "defaultWidth": 100,
+              "displayWeight": 2
+            }
+          },
+          {
+            "alias": "fairValue",
+            "field": "fairValue",
+            "name": "Fair Value",
+            "label": "Fair Value",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "currency",
+              "defaultWidth": 100,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "fairValue.asOfDate",
+                "field": "fairValue",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "displayWeight": 2
+                }
+              },
+              "currency": {
+                "alias": "fairValue.currency",
+                "field": "fairValue",
+                "property": "currency",
+                "name": "Currency",
+                "label": "Fair Value",
+                "attributes": {
+                  "type": "string",
+                  "displayWeight": 1,
+                  "defaultSort": "asc"
+                }
+              },
+              "isQuant": {
+                "alias": "fairValue.isQuant",
+                "field": "fairValue",
+                "property": "isQuant",
+                "name": "Quantitative Rating",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "boolean",
+                  "displayWeight": 2
+                }
+              },
+              "change": {
+                "alias": "fairValue.change",
+                "field": "fairValue",
+                "property": "change",
+                "name": "Last Change",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "displayWeight": 2,
+                  "type": "string"
+                }
+              },
+              "previous": {
+                "alias": "fairValue.previous",
+                "field": "fairValue",
+                "property": "previous",
+                "name": "Previous Rating",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "uncertainty": {
+                "alias": "fairValue.uncertainty",
+                "field": "fairValue",
+                "property": "uncertainty",
+                "name": "Uncertainty",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "type": "rank",
+                  "displayWeight": 2
+                }
+              },
+              "oneStarPrice": {
+                "alias": "fairValue.oneStarPrice",
+                "field": "fairValue",
+                "property": "oneStarPrice",
+                "name": "1-Star Price",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "fiveStarPrice": {
+                "alias": "fairValue.fiveStarPrice",
+                "field": "fairValue",
+                "property": "fiveStarPrice",
+                "name": "5-Star Price",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              }
+            }
+          },
+          {
+            "alias": "priceToFairValue",
+            "field": "priceToFairValue",
+            "name": "Price/Fair Value",
+            "label": "Price/Fair Value",
+            "attributes": {
+              "defaultSort": "asc",
+              "type": "number",
+              "defaultWidth": 72,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "priceToFairValue.asOfDate",
+                "field": "priceToFairValue",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Price/Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "displayWeight": 2
+                }
+              }
+            }
+          },
+          {
+            "alias": "stockStarRating",
+            "field": "stockStarRating",
+            "name": "Morningstar Rating for Stocks",
+            "label": "Morningstar Rating for Stocks",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "rank",
+              "unit": "star",
+              "defaultWidth": 112,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "stockStarRating.asOfDate",
+                "field": "stockStarRating",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "changeDate": {
+                "alias": "stockStarRating.changeDate",
+                "field": "stockStarRating",
+                "property": "changeDate",
+                "name": "Change Date",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "defaultWidth": 125,
+                  "displayWeight": 2
+                }
+              },
+              "isQuant": {
+                "alias": "stockStarRating.isQuant",
+                "field": "stockStarRating",
+                "property": "isQuant",
+                "name": "Quantitative Rating",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "boolean",
+                  "defaultWidth": 80,
+                  "displayWeight": 2
+                }
+              },
+              "change": {
+                "alias": "stockStarRating.change",
+                "field": "stockStarRating",
+                "property": "change",
+                "name": "Last Change",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "displayWeight": 2,
+                  "type": "string"
+                }
+              },
+              "previous": {
+                "alias": "stockStarRating.previous",
+                "field": "stockStarRating",
+                "property": "previous",
+                "name": "Previous Rating",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "rank",
+                  "unit": "star",
+                  "defaultWidth": 112,
+                  "displayWeight": 2
+                }
+              },
+              "evaluatedPrice": {
+                "alias": "stockStarRating.evaluatedPrice",
+                "field": "stockStarRating",
+                "property": "evaluatedPrice",
+                "name": "Evaluated Price",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              }
+            }
+          }
+        ],
+        "results": [
+          {
+            "meta": {
+              "securityID": "0P000000T9",
+              "performanceID": "0P000000T9",
+              "companyID": "0C000006Y8",
+              "universe": "EQ",
+              "exchange": "PINX",
+              "ticker": "BLIAQ"
+            },
+            "fields": {
+              "name": {
+                "value": "BB Liquidating Inc Class A"
+              },
+              "ticker": {
+                "value": "BLIAQ"
+              },
+              "evaluatedPrice": {
+                "value": 0.365904
+              },
+              "fairValue": {
+                "value": 18,
+                "properties": {
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 15
+                  },
+                  "uncertainty": {
+                    "value": "Medium",
+                    "sortAs": 1
+                  },
+                  "twoStarPrice": {
+                    "value": 19.8
+                  },
+                  "fourStarPrice": {
+                    "value": 16.2
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.020328,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2010-04-15"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2010-04-15"
+                  },
+                  "changeDate": {
+                    "value": "2004-08-25"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 0.365904
+                  }
+                }
+              }
+            }
+          },
+          {
+            "meta": {
+              "securityID": "0P0000KC58",
+              "performanceID": "0P0000KC58",
+              "companyID": "0C000036AO",
+              "universe": "EQ",
+              "exchange": "GREY",
+              "ticker": "CHOPF"
+            },
+            "fields": {
+              "name": {
+                "value": "China Gerui Advanced Materials Group Ltd"
+              },
+              "ticker": {
+                "value": "CHOPF"
+              },
+              "evaluatedPrice": {
+                "value": 22.6
+              },
+              "fairValue": {
+                "value": 100,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2010-07-08"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 10
+                  },
+                  "uncertainty": {
+                    "value": "High",
+                    "sortAs": 2
+                  },
+                  "oneStarPrice": {
+                    "value": 155
+                  },
+                  "twoStarPrice": {
+                    "value": 114.99999999999999
+                  },
+                  "fourStarPrice": {
+                    "value": 85
+                  },
+                  "fiveStarPrice": {
+                    "value": 60
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.226,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2012-06-07"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2012-06-07"
+                  },
+                  "changeDate": {
+                    "value": "2010-11-19"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 22.6
+                  }
+                }
+              }
+            }
+          },
+          {
+            "meta": {
+              "securityID": "0P000003AV",
+              "performanceID": "0P000003AV",
+              "companyID": "0C0000083Y",
+              "universe": "EQ",
+              "exchange": "XNYS",
+              "ticker": "BBWI"
+            },
+            "fields": {
+              "name": {
+                "value": "Bath & Body Works Inc"
+              },
+              "ticker": {
+                "value": "BBWI"
+              },
+              "evaluatedPrice": {
+                "value": 14.849992
+              },
+              "fairValue": {
+                "value": 62,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-09-03"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 61
+                  },
+                  "uncertainty": {
+                    "value": "High",
+                    "sortAs": 2
+                  },
+                  "oneStarPrice": {
+                    "value": 96.1
+                  },
+                  "twoStarPrice": {
+                    "value": 71.3
+                  },
+                  "fourStarPrice": {
+                    "value": 52.699999999999996
+                  },
+                  "fiveStarPrice": {
+                    "value": 37.2
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.239516,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2024-06-27"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 14.849992
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "BnwTds L",
+                "locked": true
+              },
+              "ticker": {
+                "value": "HY",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 35.330031
+              },
+              "fairValue": {
+                "value": 99,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-06"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 111
+                  },
+                  "uncertainty": {
+                    "value": "High",
+                    "sortAs": 2
+                  },
+                  "oneStarPrice": {
+                    "value": 153.45
+                  },
+                  "twoStarPrice": {
+                    "value": 113.85
+                  },
+                  "fourStarPrice": {
+                    "value": 84.14999999999999
+                  },
+                  "fiveStarPrice": {
+                    "value": 59.4
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.356869,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-04-10"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 35.330031
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "NL Xxkychmn ",
+                "locked": true
+              },
+              "ticker": {
+                "value": "DHHS",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 3.99
+              },
+              "fairValue": {
+                "value": 10,
+                "properties": {
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 14
+                  },
+                  "uncertainty": {
+                    "value": "High",
+                    "sortAs": 2
+                  },
+                  "oneStarPrice": {
+                    "value": 15
+                  },
+                  "twoStarPrice": {
+                    "value": 11.5
+                  },
+                  "fourStarPrice": {
+                    "value": 8.5
+                  },
+                  "fiveStarPrice": {
+                    "value": 6.5
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.399,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2008-04-04"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2008-04-04"
+                  },
+                  "changeDate": {
+                    "value": "2007-12-28"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 3.99
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "Bmndgzbjx Zpzpvp Ppdjk Lwdh",
+                "locked": true
+              },
+              "ticker": {
+                "value": "TQF",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 10.380006
+              },
+              "fairValue": {
+                "value": 26,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-07"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 27
+                  },
+                  "uncertainty": {
+                    "value": "Medium",
+                    "sortAs": 1
+                  },
+                  "oneStarPrice": {
+                    "value": 35.1
+                  },
+                  "twoStarPrice": {
+                    "value": 28.6
+                  },
+                  "fourStarPrice": {
+                    "value": 23.400000000000002
+                  },
+                  "fiveStarPrice": {
+                    "value": 18.2
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 0.399231,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 5,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-03-13"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 4
+                  },
+                  "evaluatedPrice": {
+                    "value": 10.380006
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "count": 328
+      }
+    },
+    "overvaluedStocks": {
+      "status": 200,
+      "payload": {
+        "query": "exchangeCountry = 'USA' AND fairValue.isQuant = 'false' AND fairValueUncertainty in ('Low','Medium','High') AND stockStarRating in (1,2)",
+        "fields": [
+          {
+            "alias": "name",
+            "field": "name",
+            "name": "Name",
+            "label": "Name",
+            "attributes": {
+              "type": "string",
+              "defaultWidth": 280,
+              "displayWeight": 4,
+              "defaultSort": "asc"
+            }
+          },
+          {
+            "alias": "ticker",
+            "field": "ticker",
+            "name": "Ticker",
+            "label": "Ticker",
+            "attributes": {
+              "type": "string",
+              "defaultWidth": 90,
+              "displayWeight": 1,
+              "defaultSort": "asc"
+            }
+          },
+          {
+            "alias": "evaluatedPrice",
+            "field": "stockStarRating",
+            "property": "evaluatedPrice",
+            "name": "Evaluated Price",
+            "label": "Morningstar Rating for Stocks",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "currency",
+              "defaultWidth": 100,
+              "displayWeight": 2
+            }
+          },
+          {
+            "alias": "fairValue",
+            "field": "fairValue",
+            "name": "Fair Value",
+            "label": "Fair Value",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "currency",
+              "defaultWidth": 100,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "fairValue.asOfDate",
+                "field": "fairValue",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "displayWeight": 2
+                }
+              },
+              "currency": {
+                "alias": "fairValue.currency",
+                "field": "fairValue",
+                "property": "currency",
+                "name": "Currency",
+                "label": "Fair Value",
+                "attributes": {
+                  "type": "string",
+                  "displayWeight": 1,
+                  "defaultSort": "asc"
+                }
+              },
+              "isQuant": {
+                "alias": "fairValue.isQuant",
+                "field": "fairValue",
+                "property": "isQuant",
+                "name": "Quantitative Rating",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "boolean",
+                  "displayWeight": 2
+                }
+              },
+              "change": {
+                "alias": "fairValue.change",
+                "field": "fairValue",
+                "property": "change",
+                "name": "Last Change",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "displayWeight": 2,
+                  "type": "string"
+                }
+              },
+              "previous": {
+                "alias": "fairValue.previous",
+                "field": "fairValue",
+                "property": "previous",
+                "name": "Previous Rating",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "uncertainty": {
+                "alias": "fairValue.uncertainty",
+                "field": "fairValue",
+                "property": "uncertainty",
+                "name": "Uncertainty",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "type": "rank",
+                  "displayWeight": 2
+                }
+              },
+              "oneStarPrice": {
+                "alias": "fairValue.oneStarPrice",
+                "field": "fairValue",
+                "property": "oneStarPrice",
+                "name": "1-Star Price",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "fiveStarPrice": {
+                "alias": "fairValue.fiveStarPrice",
+                "field": "fairValue",
+                "property": "fiveStarPrice",
+                "name": "5-Star Price",
+                "label": "Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              }
+            }
+          },
+          {
+            "alias": "priceToFairValue",
+            "field": "priceToFairValue",
+            "name": "Price/Fair Value",
+            "label": "Price/Fair Value",
+            "attributes": {
+              "defaultSort": "asc",
+              "type": "number",
+              "defaultWidth": 72,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "priceToFairValue.asOfDate",
+                "field": "priceToFairValue",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Price/Fair Value",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "displayWeight": 2
+                }
+              }
+            }
+          },
+          {
+            "alias": "stockStarRating",
+            "field": "stockStarRating",
+            "name": "Morningstar Rating for Stocks",
+            "label": "Morningstar Rating for Stocks",
+            "attributes": {
+              "defaultSort": "desc",
+              "type": "rank",
+              "unit": "star",
+              "defaultWidth": 112,
+              "displayWeight": 2
+            },
+            "properties": {
+              "asOfDate": {
+                "alias": "stockStarRating.asOfDate",
+                "field": "stockStarRating",
+                "property": "asOfDate",
+                "name": "As of Date",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              },
+              "changeDate": {
+                "alias": "stockStarRating.changeDate",
+                "field": "stockStarRating",
+                "property": "changeDate",
+                "name": "Change Date",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "date",
+                  "defaultWidth": 125,
+                  "displayWeight": 2
+                }
+              },
+              "isQuant": {
+                "alias": "stockStarRating.isQuant",
+                "field": "stockStarRating",
+                "property": "isQuant",
+                "name": "Quantitative Rating",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "boolean",
+                  "defaultWidth": 80,
+                  "displayWeight": 2
+                }
+              },
+              "change": {
+                "alias": "stockStarRating.change",
+                "field": "stockStarRating",
+                "property": "change",
+                "name": "Last Change",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "asc",
+                  "displayWeight": 2,
+                  "type": "string"
+                }
+              },
+              "previous": {
+                "alias": "stockStarRating.previous",
+                "field": "stockStarRating",
+                "property": "previous",
+                "name": "Previous Rating",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "rank",
+                  "unit": "star",
+                  "defaultWidth": 112,
+                  "displayWeight": 2
+                }
+              },
+              "evaluatedPrice": {
+                "alias": "stockStarRating.evaluatedPrice",
+                "field": "stockStarRating",
+                "property": "evaluatedPrice",
+                "name": "Evaluated Price",
+                "label": "Morningstar Rating for Stocks",
+                "attributes": {
+                  "defaultSort": "desc",
+                  "type": "currency",
+                  "defaultWidth": 100,
+                  "displayWeight": 2
+                }
+              }
+            }
+          }
+        ],
+        "results": [
+          {
+            "meta": {
+              "securityID": "0P00000187",
+              "performanceID": "0P00000187",
+              "companyID": "0C000007BL",
+              "universe": "EQ",
+              "exchange": "XNAS",
+              "ticker": "CME"
+            },
+            "fields": {
+              "name": {
+                "value": "CME Group Inc Class A"
+              },
+              "ticker": {
+                "value": "CME"
+              },
+              "evaluatedPrice": {
+                "value": 273.08996
+              },
+              "fairValue": {
+                "value": 260,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-08-15"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 245
+                  },
+                  "uncertainty": {
+                    "value": "Low",
+                    "sortAs": 0
+                  },
+                  "oneStarPrice": {
+                    "value": 325
+                  },
+                  "twoStarPrice": {
+                    "value": 273
+                  },
+                  "fourStarPrice": {
+                    "value": 247
+                  },
+                  "fiveStarPrice": {
+                    "value": 208
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.050346,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-11-13"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 273.08996
+                  }
+                }
+              }
+            }
+          },
+          {
+            "meta": {
+              "securityID": "0P000001GL",
+              "performanceID": "0P000001GL",
+              "companyID": "0C00000APN",
+              "universe": "EQ",
+              "exchange": "XNYS",
+              "ticker": "ED"
+            },
+            "fields": {
+              "name": {
+                "value": "Consolidated Edison Inc"
+              },
+              "ticker": {
+                "value": "ED"
+              },
+              "evaluatedPrice": {
+                "value": 100.16002
+              },
+              "fairValue": {
+                "value": 95,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-08-28"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 93
+                  },
+                  "uncertainty": {
+                    "value": "Low",
+                    "sortAs": 0
+                  },
+                  "oneStarPrice": {
+                    "value": 118.75
+                  },
+                  "twoStarPrice": {
+                    "value": 99.75
+                  },
+                  "fourStarPrice": {
+                    "value": 90.25
+                  },
+                  "fiveStarPrice": {
+                    "value": 76
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.054316,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-11-17"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 100.16002
+                  }
+                }
+              }
+            }
+          },
+          {
+            "meta": {
+              "securityID": "0P000000KX",
+              "performanceID": "0P000000KX",
+              "companyID": "0C00000AHG",
+              "universe": "EQ",
+              "exchange": "XNYS",
+              "ticker": "ATO"
+            },
+            "fields": {
+              "name": {
+                "value": "Atmos Energy Corp"
+              },
+              "ticker": {
+                "value": "ATO"
+              },
+              "evaluatedPrice": {
+                "value": 175.16004
+              },
+              "fairValue": {
+                "value": 165,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-19"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 141
+                  },
+                  "uncertainty": {
+                    "value": "Low",
+                    "sortAs": 0
+                  },
+                  "oneStarPrice": {
+                    "value": 206.25
+                  },
+                  "twoStarPrice": {
+                    "value": 173.25
+                  },
+                  "fourStarPrice": {
+                    "value": 156.75
+                  },
+                  "fiveStarPrice": {
+                    "value": 132
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.061576,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-02-13"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 175.16004
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "VHV Bcbkf",
+                "locked": true
+              },
+              "ticker": {
+                "value": "JN",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 36.12000200000001
+              },
+              "fairValue": {
+                "value": 34,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-07-11"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 33
+                  },
+                  "uncertainty": {
+                    "value": "Low",
+                    "sortAs": 0
+                  },
+                  "oneStarPrice": {
+                    "value": 42.5
+                  },
+                  "twoStarPrice": {
+                    "value": 35.7
+                  },
+                  "fourStarPrice": {
+                    "value": 32.3
+                  },
+                  "fiveStarPrice": {
+                    "value": 27.2
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.062353,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-07-22"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 36.12000200000001
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "Thddr Cdwb",
+                "locked": true
+              },
+              "ticker": {
+                "value": "LLL",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 303.220075
+              },
+              "fairValue": {
+                "value": 281,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-08-26"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 262
+                  },
+                  "uncertainty": {
+                    "value": "Medium",
+                    "sortAs": 1
+                  },
+                  "oneStarPrice": {
+                    "value": 379.35
+                  },
+                  "twoStarPrice": {
+                    "value": 309.1
+                  },
+                  "fourStarPrice": {
+                    "value": 252.9
+                  },
+                  "fiveStarPrice": {
+                    "value": 196.7
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.079075,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2024-12-19"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 1
+                  },
+                  "evaluatedPrice": {
+                    "value": 303.220075
+                  }
+                }
+              }
+            }
+          },
+          {
+            "fields": {
+              "name": {
+                "value": "Bqfdw Gb",
+                "locked": true
+              },
+              "ticker": {
+                "value": "SN",
+                "locked": true
+              },
+              "evaluatedPrice": {
+                "value": 140.390055
+              },
+              "fairValue": {
+                "value": 129,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-10-29"
+                  },
+                  "currency": {
+                    "value": "USD"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Upgrade"
+                  },
+                  "previous": {
+                    "value": 125
+                  },
+                  "uncertainty": {
+                    "value": "Medium",
+                    "sortAs": 1
+                  },
+                  "oneStarPrice": {
+                    "value": 174.15
+                  },
+                  "twoStarPrice": {
+                    "value": 141.9
+                  },
+                  "fourStarPrice": {
+                    "value": 116.10000000000001
+                  },
+                  "fiveStarPrice": {
+                    "value": 90.3
+                  }
+                }
+              },
+              "priceToFairValue": {
+                "value": 1.088295,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  }
+                }
+              },
+              "stockStarRating": {
+                "value": 2,
+                "properties": {
+                  "asOfDate": {
+                    "value": "2025-11-21"
+                  },
+                  "changeDate": {
+                    "value": "2025-07-02"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Downgrade"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 140.390055
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "count": 156
+      }
+    }
+  }
+}

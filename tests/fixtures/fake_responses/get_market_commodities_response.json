@@ -1,0 +1,2798 @@
+{
+  "page": {
+    "commodities": [
+      {
+        "id": "aluminum",
+        "instrument": "66.3.@ALI",
+        "name": "Aluminum",
+        "category": "Metal",
+        "exchange": "COMEX",
+        "instrumentID": "66.3.@ALI0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -32.75,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T07:11:06Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T07:11:06Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -1.1951,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T07:11:06Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T07:11:06Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 2711.25,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T07:11:06Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T07:11:06Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-29",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "brent-crude",
+        "instrument": "156.3.BRN",
+        "name": "Brent Crude",
+        "category": "Energy",
+        "exchange": "ICE Futures Europe",
+        "instrumentID": "156.3.BRN0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.82,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:50:41Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFEU",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:50:41Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFEU",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -1.2938,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:50:41Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFEU",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:50:41Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFEU",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 62.51,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:50:41Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFEU",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:50:41Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFEU",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-11-28",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "chicago-wheat",
+        "instrument": "64.3.@ZW",
+        "name": "Chicago Wheat",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZW0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:58Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:58Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:58Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:58Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 529.75,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:58Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:58Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "cocoa",
+        "instrument": "68.3.CC",
+        "name": "Cocoa",
+        "category": "Agricultural",
+        "exchange": "ICE Futures U.S.",
+        "instrumentID": "68.3.CC0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -24,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:49:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:49:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.4699,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:49:56Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:49:56Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 5083,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:49:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:49:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-15",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "coffee-c",
+        "instrument": "68.3.KC",
+        "name": "Coffee C",
+        "category": "Agricultural",
+        "exchange": "ICE Futures U.S.",
+        "instrumentID": "68.3.KC0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -6.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:56:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:56:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -1.599,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:56:57Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:56:57Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 395.7,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T16:56:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T16:56:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-18",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "copper",
+        "instrument": "66.3.@HG",
+        "name": "Copper",
+        "category": "Metal",
+        "exchange": "COMEX",
+        "instrumentID": "66.3.@HG0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.0465,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.9359,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 4.996,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-29",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "corn",
+        "instrument": "64.3.@ZC",
+        "name": "Corn",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZC0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -1,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.2345,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 425.75,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "cotton-2",
+        "instrument": "80.3.CT",
+        "name": "Cotton No. 2",
+        "category": "Agricultural",
+        "exchange": "ICE Futures U.S.",
+        "instrumentID": "80.3.CT0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.33,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T14:01:23Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T14:01:23Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.535,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T14:01:23Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T14:01:23Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 61.85,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T14:01:23Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T14:01:23Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-08",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "dry-whey",
+        "instrument": "77.3.@DY",
+        "name": "Dry Whey",
+        "category": "Livestock",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@DY0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0,
+            "properties": {
+              "date": {
+                "value": "2025-11-20T18:12:41Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-20T18:12:41Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0,
+            "properties": {
+              "date": {
+                "value": "2025-11-20T18:12:41Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-20T18:12:41Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 63.45,
+            "properties": {
+              "date": {
+                "value": "2025-11-20T18:12:41Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-20T18:12:41Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-11-02",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "feeder-cattle",
+        "instrument": "77.3.@GF",
+        "name": "Feeder Cattle",
+        "category": "Livestock",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@GF0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -2.15,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.6796,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 314.3,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-30",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "fcoj",
+        "instrument": "80.3.OJ",
+        "name": "Frozen Concentrated Orange Juice",
+        "category": "Agricultural",
+        "exchange": "ICE Futures U.S.",
+        "instrumentID": "80.3.OJ0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -9.9,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T18:57:47Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T18:57:47Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -6.5003,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T18:57:47Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T18:57:47Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 142.3,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T18:57:47Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T18:57:47Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-09",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "gold",
+        "instrument": "66.3.@GC",
+        "name": "Gold",
+        "category": "Metal",
+        "exchange": "COMEX",
+        "instrumentID": "66.3.@GC0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 19.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.4803,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:57Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:57Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 4062.8,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-29",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "heating-oil",
+        "instrument": "67.3.@HO",
+        "name": "Heating Oil",
+        "category": "Energy",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@HO0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.0575,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -2.3454,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 2.383,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-31",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "kc-wheat",
+        "instrument": "64.3.@KE",
+        "name": "KC Wheat",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@KE0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 4.75,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:25Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:25Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.9383,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:25Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:25Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 513,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:25Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:25Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "lean-hogs",
+        "instrument": "77.3.@HE",
+        "name": "Lean Hogs",
+        "category": "Livestock",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@HE0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -1.675,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -2.1076,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:57Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:57Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 77.65,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:57Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:57Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-17",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "live-cattle",
+        "instrument": "77.3.@LE",
+        "name": "Live Cattle",
+        "category": "Livestock",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@LE0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.275,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.1281,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 214.25,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:04:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:04:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-31",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "lumber",
+        "instrument": "77.3.@LBR",
+        "name": "Lumber",
+        "category": "Agricultural",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@LBR0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:04:23Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:04:23Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0929,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:04:23Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:04:23Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 543,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:04:23Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:04:23Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-15",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "natural-gas",
+        "instrument": "67.3.@NG",
+        "name": "Natural Gas",
+        "category": "Energy",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@NG0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.269,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 6.0125,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 4.731,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:59Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:59Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-29",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "dry-milk",
+        "instrument": "77.3.@GNF",
+        "name": "Non-Fat Dry Milk",
+        "category": "Livestock",
+        "exchange": "Chicago Mercantile Exchange",
+        "instrumentID": "77.3.@GNF0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.15,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:31:12Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:31:12Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.1285,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:31:12Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:31:12Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 116.85,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:31:12Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCME",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:31:12Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCME",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-11-02",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "oats",
+        "instrument": "64.3.@ZO",
+        "name": "Oats",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZO0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.25,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:08:28Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:08:28Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.0818,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:08:28Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:08:28Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 305.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:08:28Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:08:28Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-13",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "palladium",
+        "instrument": "67.3.@PA",
+        "name": "Palladium",
+        "category": "Metal",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@PA0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.4,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.0289,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:55Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:55Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 1384.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-07-28",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "platinum",
+        "instrument": "67.3.@PL",
+        "name": "Platinum",
+        "category": "Metal",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@PL0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 7.6,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:09:06Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:09:06Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.5036,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:09:06Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:09:06Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 1527.6,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:09:06Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:09:06Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-07-26",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "rbob-gasoline",
+        "instrument": "67.3.@RB",
+        "name": "RBOB Gasoline",
+        "category": "Energy",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@RB0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.035,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -1.8244,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 1.8761,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-28",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "rough-rice",
+        "instrument": "64.3.@ZR",
+        "name": "Rough Rice",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZR0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.415,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 4.1376,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 10.375,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "silver",
+        "instrument": "66.3.@SI",
+        "name": "Silver",
+        "category": "Metal",
+        "exchange": "COMEX",
+        "instrumentID": "66.3.@SI0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.388,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.7714,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 49.66,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T21:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCEC",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T21:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCEC",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-29",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "soybean",
+        "instrument": "64.3.@ZS",
+        "name": "Soybean",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZS0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 2.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.2227,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 1126.5,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-14",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "soybean-meal",
+        "instrument": "64.3.@ZM",
+        "name": "Soybean Meal",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZM0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 1.1,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.3503,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 315.8,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:15:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:15:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "soybean-oil",
+        "instrument": "64.3.@ZL",
+        "name": "Soybean Oil",
+        "category": "Agricultural",
+        "exchange": "Chicago Board of Trade",
+        "instrumentID": "64.3.@ZL0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.4,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -0.7896,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 50.28,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T19:14:55Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XCBT",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T19:14:55Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XCBT",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2025-12-12",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "sugar",
+        "instrument": "68.3.SB",
+        "name": "Sugar No. 11",
+        "category": "Agricultural",
+        "exchange": "ICE Futures U.S.",
+        "instrumentID": "68.3.SB0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": 0.12,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": 0.8186,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:59:56Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:59:56Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 14.77,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T17:59:56Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USX",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "IFUS",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T17:59:56Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USX",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "IFUS",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-02-27",
+            "properties": {}
+          }
+        }
+      },
+      {
+        "id": "wti-crude",
+        "instrument": "67.3.@CL",
+        "name": "WTI Crude",
+        "category": "Energy",
+        "exchange": "New York Mercantile Exchange",
+        "instrumentID": "67.3.@CL0Y",
+        "dataPoints": {
+          "netChange": {
+            "value": -0.94,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "percentNetChange": {
+            "value": -1.5932,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "lastPrice": {
+            "value": 57.98,
+            "properties": {
+              "date": {
+                "value": "2025-11-21T22:00:00Z",
+                "properties": {}
+              },
+              "currency": {
+                "value": "USD",
+                "properties": {}
+              },
+              "exchange": {
+                "value": "XNYM",
+                "properties": {}
+              }
+            },
+            "date": {
+              "value": "2025-11-21T22:00:00Z",
+              "properties": {}
+            },
+            "currency": {
+              "value": "USD",
+              "properties": {}
+            },
+            "exchange": {
+              "value": "XNYM",
+              "properties": {}
+            }
+          },
+          "optionExpirationDate": {
+            "value": "2026-01-19",
+            "properties": {}
+          }
+        }
+      }
+    ]
+  },
+  "pageMeta": {},
+  "components": {}
+}

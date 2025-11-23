@@ -1,0 +1,13 @@
+{
+  "url": "https://www.us-api.morningstar.com/QS-markets/chartservice/v2/timeseries",
+  "params": {
+    "query": "0P0000OQN8:open,high,low,close,volume,previousClose,marketTotalReturn",
+    "frequency": "d",
+    "preAfter": "false",
+    "trackMarketData": "3.6.5",
+    "instid": "DOTCOM",
+    "startDate": "2010-11-05",
+    "endDate": "2025-11-05"
+  },
+  "method": "GET"
+}
