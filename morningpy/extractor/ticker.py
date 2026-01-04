@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Optional, Literal, Union, List, Dict, Any
 from functools import lru_cache
-from pathlib import Path
+from importlib import resources
 
 class TickerExtractor:
     """
@@ -41,39 +41,35 @@ class TickerExtractor:
     @lru_cache(maxsize=1)
     def _load_tickers() -> pd.DataFrame:
         """
-        Load ticker data from parquet file with caching.
+        Load ticker data from a packaged parquet file.
 
-        This method is cached to ensure the parquet file is only read once,
-        even across multiple TickerExtractor instances.
+        This method locates the `tickers.parquet` resource bundled within the
+        `morningpy` package and loads it into a pandas DataFrame. The loaded
+        data is cached to prevent repeated disk access.
+
+        Parameters
+        ----------
+        None
 
         Returns
         -------
         pd.DataFrame
-            DataFrame containing all ticker data.
+            DataFrame containing all ticker records.
 
         Raises
         ------
         FileNotFoundError
-            If tickers.parquet cannot be found in any expected location.
-
-        Notes
-        -----
-        Uses functools.lru_cache to memoize the result. The cache can be
-        cleared using TickerExtractor.clear_cache() if the underlying file changes.
-        
-        Automatically detects library vs dev mode installation:
-        - First tries: {module_dir}/data/tickers.parquet (library mode)
-        - Falls back to: morningpy/data/tickers.parquet (dev mode)
+            If the parquet file cannot be found within the installed package.
         """
-        try: 
-            module_dir = Path(__file__).parent
-            parquet_path = module_dir / "data" / "tickers.parquet"
-            tickers = pd.read_parquet(parquet_path)
-        except:
-            parquet_path = "morningpy/data/tickers.parquet"
-            tickers = pd.read_parquet(parquet_path)
-            
-        return tickers
+        try:
+            parquet = resources.files("morningpy").joinpath("data/tickers.parquet")
+            with resources.as_file(parquet) as parquet_path:
+                return pd.read_parquet(parquet_path)
+        except FileNotFoundError as e:
+            raise FileNotFoundError(
+                "Could not find 'data/tickers.parquet' inside the morningpy package. "
+                "Ensure it is included via package-data."
+            ) from e
 
     @classmethod
     def clear_cache(cls):
