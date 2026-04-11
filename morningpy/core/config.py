@@ -1,4 +1,28 @@
+import platform
 from typing import Literal
+
+
+def _build_user_agent() -> str:
+    """Return a browser-like user-agent string adapted to the current OS."""
+    os_name = platform.system()
+    if os_name == "Windows":
+        os_str = "Windows NT 10.0; Win64; x64"
+        sec_platform = "Windows"
+    elif os_name == "Darwin":
+        os_str = "Macintosh; Intel Mac OS X 10_15_7"
+        sec_platform = "macOS"
+    else:
+        os_str = "X11; Linux x86_64"
+        sec_platform = "Linux"
+    return (
+        f"Mozilla/5.0 ({os_str}) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/142.0.0.0 Safari/537.36"
+    ), sec_platform
+
+
+_UA, _SEC_PLATFORM = _build_user_agent()
+
 
 class CoreConfig:
 
@@ -9,17 +33,13 @@ class CoreConfig:
         "accept-encoding": "gzip, deflate, br",
         "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
         "origin": "https://www.morningstar.com",
-        "sec-ch-ua" : '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
+        "sec-ch-ua": '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "Windows",
+        "sec-ch-ua-platform": _SEC_PLATFORM,
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/142.0.0.0 Safari/537.36"
-        ),
+        "user-agent": _UA,
     }
 
     URLS = {

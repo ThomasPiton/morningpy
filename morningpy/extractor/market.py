@@ -61,7 +61,7 @@ class MarketCalendarUsInfoExtractor(BaseExtractor):
         super().__init__(client)
 
         self.date = date
-        self.info_type = info_type.lower().strip()
+        self.info_type = info_type.lower().strip() if info_type else ""
         self.url = self.config.API_URL
         self.params = self.config.PARAMS
         self.valid_inputs = self.config.VALID_INPUTS

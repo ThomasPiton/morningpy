@@ -38,7 +38,3 @@ def run():
     print(holding.head())
 
     return "Correctly extracted !"
-    
-if __name__ == "__main__":
-    print(run())
-

@@ -100,8 +100,12 @@ class SecurityLoader:
         """
         package_dir = Path(__file__).resolve().parent.parent
         self.data_dir = package_dir / "data"
-        self.data_dir.mkdir(parents=True, exist_ok=True)
         self.path_file = self.data_dir / self.tickers_file
+        if not self.path_file.exists():
+            raise FileNotFoundError(
+                f"Tickers mapping file not found: {self.path_file}. "
+                "Ensure the package was installed correctly (include package data)."
+            )
         self.tickers = pd.read_parquet(self.path_file)
     
     @staticmethod

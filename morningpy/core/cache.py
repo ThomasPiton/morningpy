@@ -17,10 +17,12 @@ class Cache:
 
     def __init__(self, cache_filename: str = "cache.json"):
         """
-        Initialize the cache inside the morningpy/data/ folder.
+        Initialize the cache inside ~/.morningpy/ (user home directory).
+
+        This ensures the cache is writable on all platforms, including
+        read-only pip/conda installs on Linux and macOS.
         """
-        package_dir = Path(__file__).resolve().parent.parent
-        self.data_dir = package_dir / "data"
+        self.data_dir = Path.home() / ".morningpy"
         self.data_dir.mkdir(parents=True, exist_ok=True)
         self.cache_path = self.data_dir / cache_filename
         self._cache: dict[str, Any] = self._load_cache()

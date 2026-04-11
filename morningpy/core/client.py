@@ -123,7 +123,7 @@ class BaseClient:
         async with session.get(
             url,
             headers=self.headers,
-            timeout=self.DEFAULT_TIMEOUT,
+            timeout=aiohttp.ClientTimeout(total=self.DEFAULT_TIMEOUT),
             params=params,
         ) as response:
             response.raise_for_status()

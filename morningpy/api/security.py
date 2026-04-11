@@ -30,7 +30,7 @@ def get_financial_statement(
         Internal Morningstar security identifier(s).
     performance_id : str or list of str, optional
         Morningstar performance identifier(s).
-    statement_type : {"Balance Sheet", "Cash Flow", "Income Statement"}, optional
+    statement_type : {"Balance Sheet", "Cash Flow Statement", "Income Statement"}, optional
         Type of financial statement to retrieve.
     report_frequency : {"Annualy", "Quarterly"}, optional
         Frequency of reporting for the statement.

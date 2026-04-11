@@ -134,34 +134,21 @@ class TestNormalizeInput:
 class TestLoadTickers:
     """Test the _load_tickers method."""
     
-    @patch('pathlib.Path.mkdir')
     @patch('pandas.read_parquet')
-    def test_load_tickers_creates_directory(self, mock_read_parquet, mock_mkdir, sample_tickers_df):
-        """Test that _load_tickers creates data directory."""
-        mock_read_parquet.return_value = sample_tickers_df
-        
-        loader = SecurityLoader()
-        
-        mock_mkdir.assert_called_once_with(parents=True, exist_ok=True)
-    
-    @patch('pathlib.Path.mkdir')
-    @patch('pandas.read_parquet')
-    def test_load_tickers_reads_parquet_file(self, mock_read_parquet, mock_mkdir, sample_tickers_df):
+    @patch('pathlib.Path.exists', return_value=True)
+    def test_load_tickers_reads_parquet_file(self, mock_exists, mock_read_parquet, sample_tickers_df):
         """Test that _load_tickers reads the parquet file."""
         mock_read_parquet.return_value = sample_tickers_df
-        
+
         loader = SecurityLoader()
-        
+
         assert isinstance(loader.tickers, pd.DataFrame)
         assert len(loader.tickers) == 5
-    
-    @patch('pathlib.Path.mkdir')
-    @patch('pandas.read_parquet')
-    def test_load_tickers_file_not_found(self, mock_read_parquet, mock_mkdir):
-        """Test handling of missing tickers file."""
-        mock_read_parquet.side_effect = FileNotFoundError("File not found")
-        
-        with pytest.raises(FileNotFoundError):
+
+    @patch('pathlib.Path.exists', return_value=False)
+    def test_load_tickers_file_not_found(self, mock_exists):
+        """Test that a missing tickers file raises FileNotFoundError."""
+        with pytest.raises(FileNotFoundError, match="Tickers mapping file not found"):
             SecurityLoader()
 
 

@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from enum import Enum
 from typing import Dict, Optional, Any
 
-from .config import CoreConfig
+from .config import CoreConfig, _UA
 from .cache import Cache
 
 
@@ -271,10 +271,7 @@ class AuthManager:
         chrome_options.add_argument("--disable-blink-features=AutomationControlled")
         chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
         chrome_options.add_experimental_option("useAutomationExtension", False)
-        chrome_options.add_argument(
-            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
-        )
+        chrome_options.add_argument(f"user-agent={_UA}")
 
         waf_token = ""
         driver = None
